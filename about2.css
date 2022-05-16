@@ -1,0 +1,36 @@
+body{
+	background: url(web2.png);
+	background-position: center;
+}
+.container{
+	height: 75vh;
+	width: 30%;
+	background: rgba(5, 5, 5, .6);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.img{
+	height: 70px;
+	width: 70px;
+	background: url(logo.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container h1{
+	color:#ddd;
+	margin-top: 50px;
+}
+.container p{
+	color: white;
+	margin-top: 60px;
+}
+.container a{
+	color: white;
+}
